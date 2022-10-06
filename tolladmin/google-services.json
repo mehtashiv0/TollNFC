@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "348449669891",
+    "firebase_url": "https://nfc-toll.firebaseio.com",
+    "project_id": "nfc-toll",
+    "storage_bucket": "nfc-toll.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348449669891:android:c3ef7f237bbf8b9e969f36",
+        "android_client_info": {
+          "package_name": "com.firstapp.tolladmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348449669891-70pnbh3l0nca2tag7k8pdg9cor1pi07j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYBzldXrpCEwg584Yn0TqFa_70qD6vRME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348449669891-70pnbh3l0nca2tag7k8pdg9cor1pi07j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348449669891:android:71fdddacc0027446969f36",
+        "android_client_info": {
+          "package_name": "com.firstapp.tollnfc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348449669891-70pnbh3l0nca2tag7k8pdg9cor1pi07j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYBzldXrpCEwg584Yn0TqFa_70qD6vRME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348449669891-70pnbh3l0nca2tag7k8pdg9cor1pi07j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

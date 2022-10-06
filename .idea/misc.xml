@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Toll/TollNFC/app/src/main/res/drawable-xxhdpi/round_button.xml" value="0.103" />
+        <entry key="..\:/Toll/TollNFC/app/src/main/res/drawable-xxhdpi/round_corner_button.xml" value="0.103" />
+        <entry key="..\:/Toll/TollNFC/app/src/main/res/drawable/ic_mail.xml" value="0.103" />
+        <entry key="..\:/Toll/TollNFC/app/src/main/res/drawable/oval.xml" value="0.103" />
+        <entry key="..\:/Toll/TollNFC/app/src/main/res/drawable/square.xml" value="0.103" />
+        <entry key="..\:/Toll/TollNFC/app/src/main/res/layout/activity_forgot_pass.xml" value="0.25416666666666665" />
+        <entry key="..\:/Toll/TollNFC/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Toll/TollNFC/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Toll/TollNFC/app/src/main/res/layout/activity_splash.xml" value="0.24010416666666667" />
+        <entry key="..\:/Toll/TollNFC/app/src/main/res/layout/content_homepage.xml" value="0.24010416666666667" />
+        <entry key="..\:/Toll/TollNFC/app/src/main/res/menu/activity_homepage_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Toll/TollNFC/app/toll/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Toll/TollNFC/myapplication/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Toll/TollNFC/tolladmin/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Toll/TollNFC/tolladmin/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

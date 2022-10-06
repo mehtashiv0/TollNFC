@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Highway"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/back" />
+    <EditText
+        android:id="@+id/way"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:hint="Enter Highway Name"
+        android:background="@drawable/round_corner_button"
+        android:textColorHint="#777"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:background="@drawable/round_button"/>
+</LinearLayout>

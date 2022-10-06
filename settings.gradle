@@ -1,0 +1,4 @@
+include ':app', ':tolladmin'
+rootProject.name='Toll NFC'
+include ':app:toll'
+include ':myapplication'

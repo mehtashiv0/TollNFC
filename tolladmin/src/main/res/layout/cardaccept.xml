@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="#000"
+            android:background="@drawable/round_corner_button"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="DL.NO :-"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/dlno"
+                android:background="@drawable/round_corner_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Driving licence No"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Email :-"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#000"
+                android:background="@drawable/round_corner_button"
+                android:id="@+id/email"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Mob.No :-"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number"
+                android:textColor="#000"
+                android:background="@drawable/round_corner_button"
+                android:id="@+id/mob"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/block"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_background"
+            android:text="Block"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

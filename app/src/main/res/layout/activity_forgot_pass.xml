@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ForgotPass">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="189dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/forgotpassword" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YO! You forgot your Password?"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorText"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No worries! Enter your Email address to get the Password reset link."
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="9dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/etforgot"
+        android:drawableLeft="@drawable/ic_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email"
+        android:textAlignment="center"
+        android:layout_margin="30dp"
+        android:textColorHint="#000"
+        android:background="@drawable/round_corner_button"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btforgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/button_background"
+        android:layout_marginLeft="70dp"></Button>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        tools:showIn="navigation_view"
+        <item
+            android:id="@+id/addhighway"
+            android:icon="@drawable/ic_motorway"
+            android:title="Add Highway" />
+        <item
+            android:id="@+id/addroute"
+            android:icon="@drawable/ic_location"
+            android:title="Add route" />
+        <item
+            android:id="@+id/viewroute"
+            android:icon="@drawable/ic_planing"
+            android:title="View route" />
+        <item
+            android:id="@+id/viewcardreq"
+            android:icon="@drawable/ic_nfc"
+            android:title="View Card Request" />
+
+        <item
+            android:id="@+id/acceptedreq"
+            android:icon="@drawable/ic_logout"
+            android:title="Accepted Req"/>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>-->
+
+</menu>
